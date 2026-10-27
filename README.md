@@ -36,7 +36,7 @@ The dataset contains student demographic, academic, and socioeconomic informatio
 Logistic Regression was the best-performing model based on the observed results, with an accuracy of 0.7684 and an AUC of 0.8779.
 
 ### 7. GitHub Repository
-Repository URL: To be added after creating the GitHub repository.
+Repository URL: https://github.com/GaaneshKrishnaAI/student_dropout_academic_success-
 
 ### 8. Conclusion
 The five classification algorithms were evaluated using accuracy, AUC, precision, recall, F1 score, and Matthews Correlation Coefficient. Logistic Regression demonstrated the strongest overall performance among the evaluated models.
