@@ -8,34 +8,29 @@ A Machine Learning project that implements and compares five classification algo
 
 The objective of this project is to develop and evaluate machine learning classification models that predict student academic outcomes using demographic, academic, and socioeconomic information.
 
-The project compares five classification algorithms and evaluates their performance using multiple classification metrics. A Streamlit web application is also developed to allow users to upload test data, select a trained model, and view its evaluation results.
+The project compares five classification algorithms and evaluates their performance using multiple classification metrics. A Streamlit web application is also developed to allow users to upload test data, select an available trained model, and view its evaluation results.
 
 ## 2. Dataset Description
 
 The project uses the Predict Students' Dropout and Academic Success dataset from the UCI Machine Learning Repository.
 
-Dataset Source: UCI Machine Learning Repository
+**Dataset Source:** UCI Machine Learning Repository
 
-Total Instances: 4,424
+**Total Instances:** 4,424
 
-Input Features: 36
+**Input Features:** 36
 
-Target Variable: Student academic outcome
+**Target Variable:** Student academic outcome
 
-Classification Classes:
+**Classification Classes:**
 
-Dropout
-
-Enrolled
-
-Graduate
+- Dropout
+- Enrolled
+- Graduate
 
 The dataset contains demographic, academic, and socioeconomic information about students. It is used to train and evaluate the five classification models.
 
-Dataset Link:
-https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
-
-
+**Dataset Link:** [https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
 
 ## 3. Machine Learning Models
 
@@ -74,7 +69,7 @@ The models are evaluated using the following metrics:
 
 ## 6. Model Performance Comparison
 
-| Model | Accuracy | AUC | Precision | Recall | F1 Score | MCC |
+| **Model** | **Accuracy** | **AUC** | **Precision** | **Recall** | **F1 Score** | **MCC** |
 |---|---:|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.7684 | 0.8779 | 0.7070 | 0.6754 | 0.6826 | 0.6150 |
 | Decision Tree | 0.7322 | 0.8398 | 0.6706 | 0.6453 | 0.6530 | 0.5549 |
@@ -102,17 +97,22 @@ Based on the evaluation results, **Logistic Regression** demonstrated the strong
 It achieved the highest accuracy and AUC among the five evaluated classification algorithms.
 
 ## 9. Streamlit Web Application
-An interactive web application was developed using Streamlit and deployed on Streamlit Community Cloud.
-Application features:
-Upload a test dataset (test_data.csv).
-Select an available trained classification model.
-Evaluate the uploaded dataset using the saved model.
-Display classification performance metrics.
-Visualize the confusion matrix for the selected model.
-The application loads saved trained models and evaluates the uploaded test dataset without retraining.
-Deployment note: All five classification models are implemented and evaluated in the project. Due to a scikit-learn model compatibility issue on Streamlit Community Cloud, the Decision Tree model is currently unavailable in the deployed application. The remaining four models are available for interactive evaluation.
-Live Application: https://mqeow2vpq77bbvgtrz29gf.streamlit.app/
 
+An interactive web application was developed using Streamlit and deployed on Streamlit Community Cloud.
+
+**Application Features:**
+
+- Upload a test dataset (`test_data.csv`).
+- Select an available trained classification model.
+- Evaluate the uploaded dataset using the saved model.
+- Display classification performance metrics.
+- Visualize the confusion matrix for the selected model.
+
+The application loads saved trained models and evaluates the uploaded test dataset without retraining the models on the uploaded test data.
+
+**Deployment Note:** All five classification models are implemented and evaluated in the project. Due to a scikit-learn model compatibility issue on Streamlit Community Cloud, the Decision Tree model is currently unavailable in the deployed application. The remaining four models are available for interactive evaluation.
+
+**Live Application:** [https://mqeow2vpq77bbvgtrz29gf.streamlit.app/](https://mqeow2vpq77bbvgtrz29gf.streamlit.app/)
 
 ## 10. Technologies and Libraries
 
@@ -181,7 +181,7 @@ Open the local URL displayed in the terminal to access the application.
 ## 13. GitHub Repository
 
 **Source Code:**  
-https://github.com/GaaneshKrishnaAI/student_dropout_academic_success-
+[https://github.com/GaaneshKrishnaAI/student_dropout_academic_success-](https://github.com/GaaneshKrishnaAI/student_dropout_academic_success-)
 
 ## 14. Conclusion
 
